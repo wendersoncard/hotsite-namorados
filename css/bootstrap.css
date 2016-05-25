@@ -3021,7 +3021,7 @@ select[multiple].input-lg {
           user-select: none;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px;
+ 
 }
 .btn:focus,
 .btn:active:focus,
@@ -5897,6 +5897,8 @@ button.close {
           transform: translate(0, 0);
 }
 .modal-open .modal {
+  float: left;
+  height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -5924,15 +5926,15 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #000;
+  background-color: #ffffff;
 }
 .modal-backdrop.fade {
   filter: alpha(opacity=0);
   opacity: 0;
 }
 .modal-backdrop.in {
-  filter: alpha(opacity=50);
-  opacity: .5;
+  filter: alpha(opacity=80);
+  opacity: .8;
 }
 .modal-header {
   padding: 15px;
